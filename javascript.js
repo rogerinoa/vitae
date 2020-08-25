@@ -100,7 +100,7 @@ function eliminate(){
       message.classList.add('message-inactive')
       message.style.marginleft='20px'
       uni.style.opacity=1;
-      uni.style.backgroundImage="url(/images/unilever.png)"
+      uni.style.backgroundImage="url(images/unilever.png)"
       if(n<4){
       setTimeout(repeat,2000)
   }
@@ -110,7 +110,7 @@ function repeat(){
         message.style.marginLeft='20px'
         message.style.fontSize='20px'
         uni.style.opacity='0.7'
-        uni.style.backgroundImage="url(/images/click.png)"
+        uni.style.backgroundImage="url(images/click.png)"
         setTimeout(eliminate,1000)
 }
 
