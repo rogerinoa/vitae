@@ -56,23 +56,63 @@ if(window.innerWidth>1024 & window.innerWidth<1136){
 
 
 for(let i of coma){
-  i.addEventListener('click',(e)=>{
+ console.log(window.innerWidth)
+if(window.innerWidth>1282){
+
+  i.addEventListener('mouseover',(e)=>{
     const current= e.currentTarget.getAttribute('data-tag')
     console.log(current)
     if(current=='direccion'){
-      i.classList.toggle('email-active')
-      under2.classList.toggle('under-active')
+
+      under2.classList.add('under-active')
+        i.classList.add('email-active')
 
 
     }else if(current=='email'){
+      i.classList.add('email-active')
+      esto.classList.add('under-active')
+
+    }else{
+      i.classList.add('email-active')
+      under1.classList.add('under-active')
+    }
+  })
+
+  i.addEventListener('mouseout',(e)=>{
+    let dia = e.currentTarget.getAttribute('data-tag')
+    if(dia=='email'){
+      esto.classList.remove('under-active')
+        i.classList.remove('email-active')
+
+    } else if(dia=='direccion'){
+
+      under2.classList.remove('under-active')
+        i.classList.remove('email-active')
+
+    }else{
+      i.classList.remove('email-active')
+      under1.classList.remove('under-active')
+    }
+    })
+
+}else{
+  i.addEventListener('click',(e)=>{
+    const current = e.currentTarget.getAttribute('data-tag')
+    if(current=='email'){
       i.classList.toggle('email-active')
       esto.classList.toggle('under-active')
-
+    }else if(current=='direccion'){
+      i.classList.toggle('email-active')
+      under2.classList.toggle('under-active')
     }else{
       i.classList.toggle('email-active')
       under1.classList.toggle('under-active')
     }
+
   })
+
+}
+
 }
 
 
