@@ -567,18 +567,18 @@ ul{
 }
 
 .uni{
-  background-image: url(/images/unilever.png);
+  background-image: url(images/unilever.png);
 
 }
 .re{
-  background-image: url(/images/rem.png);
+  background-image: url(images/rem.png);
 
 }
 .se{
-  background-image: url(/images/sensata.png);
+  background-image: url(images/sensata.png);
 }
 .mu{
-  background-image: url(/images/munne1.png);
+  background-image: url(images/munne1.png);
 }
 .uni, .re, .se, .mu{
   width: 100px;
