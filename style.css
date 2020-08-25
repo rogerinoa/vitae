@@ -108,8 +108,12 @@ transition: all 0.5s ease
 /* ////////submenus/////// */
 .upper, .upper1, .upper2{
   position:static;
-  z-index: 9000;
 
+
+}
+.wrap{
+  position: relative;
+  z-index: 9000
 }
 .under, .under1, .under2{
   font-size: 25px;
@@ -119,7 +123,7 @@ transition: all 0.5s ease
 
   color:white;
   background-color: #e7305b;
-  z-index: 10000,
+  z-index: 100,
 }
 .under-active{
   padding: 30px;
