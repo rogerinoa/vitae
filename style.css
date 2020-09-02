@@ -653,7 +653,7 @@ margin-left: 30px
     /* margin-right: auto; */
   }
   .header, .expirience, nav, .footer,.studies,.courses{
-    max-width: 1400px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
