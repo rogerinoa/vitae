@@ -634,7 +634,7 @@ margin-left: 30px
 
 
 
-@media (min-width:1275px) {
+@media (min-width:1023px) {
 
 
   body{
@@ -701,7 +701,7 @@ margin-left: 30px
 
 
 
-@media (max-width:1275px) {
+@media (max-width:1023px) {
 
   .upper, .upper1, .upper2{
     position: relative;
